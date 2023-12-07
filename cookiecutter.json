@@ -1,4 +1,8 @@
 {
+	"project_name": "t",
+	"repo_name": "t",
+	"author_name": "t",
+	"description": "t",
     "_parameters": {
         "project_name": {
             "default_value": "Default Project Name",
