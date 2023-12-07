@@ -1,6 +1,24 @@
 {
-    "project_name": "Nome del progetto",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "author_name": "[AI&Data AZB] Inserisci il tuo nome o il nome del team",
-    "description": "Inserisci una breve descrizione del progetto"
+    "_parameters": {
+        "project_name": {
+            "default_value": "Default Project Name",
+            "prompt": "Nome del progetto che si vuole inizializzare",
+            "help": "Inserire un nome che possa identificare il progetto."
+        },
+        "repo_name": {
+            "default_value": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+            "prompt": "Nome della repository contenente il progetto",
+            "help": "Inserire solo se si vuole un nome diverso da quello del progetto"
+        },
+        "author_name": {
+            "default_value": "AI & Data, AZB",
+            "prompt": "Nome dell'autore del progetto",
+            "help": "Di default è il nome del team"
+        },
+        "description": {
+            "default_value": "",
+            "prompt": "Descrizione del progetto",
+            "help": "Breve descrizione inserita nel README.md"
+        }
+    }
 }
