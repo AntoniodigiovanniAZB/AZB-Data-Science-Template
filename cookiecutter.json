@@ -2,5 +2,5 @@
     "project_name": "Nome del progetto",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "[AI&Data AZB] Inserisci il tuo nome o il nome del team",
-    "description": "Inserisci una breve descrizione del progetto",
+    "description": "Inserisci una breve descrizione del progetto"
 }
